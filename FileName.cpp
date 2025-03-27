@@ -1,9 +1,9 @@
 #include <iostream>
-
+//начало кода
 int main() {
-    std::string name;
-    std::cout << "Enter your name: ";
-    std::cin >> name;
-    std::cout << "Hello world from " << name << std::endl;
+    std::string name;                // тут имя
+    std::cout << "Enter your name: "; //тут спрашиваем это имя
+    std::cin >> name;                  //узнаём имя
+    std::cout << "Hello world from " << name << std::endl; //пишем имя
     return 0;
-}
+}//конец кода
